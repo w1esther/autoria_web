@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="envio_dados.html">
+    <fieldset>
+        <legend>Pesquisa de opinião:</legend>
+
+        <br>
+
+        <label for="nome">Nome (opicional):</label>
+        <input type="text" name="nome" id="nome" placeholder="digite aqui">
+
+        <br><br>
+
+        <label for="idade">Idade:</label>
+        <select name="idade" id="idade">
+
+            <option value="" selected disabled>selecione uma opção</option>
+
+            <option value="16 a 18">16 a 18</option>
+
+            <option value="19 a 30">19 a 30</option>
+
+            <option value="31 a 45">31 a 45</option>
+
+            <option value="46 a 60">46 a 60</option>
+
+            <option value="60+">60+</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="naturalidade">Naturalidade:</label>
+        <input type="text" id="naturalidade" name="naturalidade"  placeholder="digite aqui" required>
+
+        <br><br>
+
+        <label for="nacionalidade">Nacionalidade:</label>
+        <input type="text" name="nacionalidade" id="nacionalidade" placeholder="digite aqui" required>
+
+        <br><br>
+
+        <label for="">votou na eleição anterior para prefeito?</label>
+
+        <br><br>
+
+        <input type="radio" id="sim" name="sim-não" >
+        <label for="sim">Sim</label>
+
+        <input type="radio" id="não" name="sim-não">
+        <label for="não">Não</label>
+
+        <br><br>
+
+        <label for="">Marque os partidos que você mais se identifica:</label>
+
+        <br><br>
+
+        <input type="checkbox" name="op1" id="pt">
+        <label for="pt">PT</label>
+
+        <input type="checkbox" name="op2" id="psdb">
+        <label for="psdb">PSDB</label>
+
+        <input type="checkbox" name="op3" id="democratas">
+        <label for="democratas">Democratas</label>
+
+        <input type="checkbox" name="op4" id="pstu">
+        <label for="pstu">PSTU</label>
+
+        <input type="checkbox" name="op5" id="outro">
+        <label for="outro">Outro</label>
+
+        <br><br>
+
+        <label for="">Como você classifica a administração atual?</label>
+
+        <br><br>
+        
+        <input type="radio" name="classificação" id="Ótima">
+        <label for="Ótima">Ótima</label>
+
+        <input type="radio" name="classificação" id="boa">
+        <label for="boa">Boa</label>
+
+        <input type="radio" name="classificação" id="regular">
+        <label for="regular">Regular</label>
+
+        <input type="radio" name="classificação" id="péssima">
+        <label for="péssima">Péssima</label>
+
+        <br><br>
+
+        <label for="problmeas">Quais os principais problmeas da cidade atualmente?</label>
+
+        <br><br>
+
+        <textarea name="problmeas" id="problmeas" rows="10" cols="50" placeholder="digite aqui"></textarea>
+
+        <br><br>
+
+        <button type="submit" name="enviar" value="Enviar formulário">
+        
+        <a href="envio_dados.html"></a> Enviar formulário
+        </button>
+
+        <button type="reset" name="limpar" value="Limpar formulário"> 
+            Limpar formulário
+        </button>
+
+    </fieldset>
+    </form>
+</body>
+</html>
