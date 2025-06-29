@@ -1,0 +1,55 @@
+body {
+    background-color: #d8719a;
+}
+
+input[type="text"] {
+    background-color: #f1a7d8;
+    border-color: rgb(97, 13, 62);
+}
+
+input[type="radio"] {
+    accent-color: #f1a7d8;
+}
+
+input[type="checkboox"] {
+    accent-color: #f1a7d8;
+}
+
+select {
+    background-color: #f1a7d8;
+    color: rgb(97, 13, 62);
+    border-color: rgb(97, 13, 62);
+    border-width: 2px;
+}
+
+textarea {
+    background-color: #f1a7d8;
+    border-width: 2px;
+    border-color: rgb(97, 13, 62);
+}
+
+button {
+    background-color: #f1a7d8;
+}
+
+legend {
+    background-color: #f1a7d8;
+    color: rgb(97, 13, 62);
+    font-size: 25px;
+}
+
+label {
+    color: rgb(97, 13, 62);
+    font-size: 18px;
+}
+
+/*.linha {
+    display: flex;
+    gap: 10px;
+}
+
+/*.linha input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
