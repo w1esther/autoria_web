@@ -1,0 +1,19 @@
+.notas-alunos {
+    width: 500px;
+    border: 2px solid;
+    border-collapse: collapse;
+    height: 250px;
+    background-color: rgb(120, 46, 102);
+    margin: auto;
+}
+
+th, td, tr {
+    border: 2px solid;
+    text-align: center;
+    color: rgb(250, 252, 252);
+    border-color: rgb(192, 102, 165);
+}
+
+tr :hover {
+    background-color: rgb(145, 48, 129);
+}
