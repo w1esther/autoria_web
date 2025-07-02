@@ -1,0 +1,16 @@
+table {
+    width: 300px;
+    border: 2px solid;
+    margin: auto;
+    height: 90px;
+    border-collapse: collapse;
+    background-color: #ea138c;
+    border-color: rgb(73, 13, 52);
+}
+
+tr, td {
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(73, 13, 52);
+    color: #49082d;
+}

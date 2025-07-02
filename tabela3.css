@@ -1,0 +1,38 @@
+table {
+    width: 300px;
+    height: 75px;
+    border: 2px solid;
+    border-collapse: collapse;
+    background-color: rgb(254, 212, 250);
+    border-color: rebeccapurple;
+}
+
+tr, td {
+    border: 1px solid;
+    border-color: rebeccapurple;
+    text-align: center;
+}
+
+.roxo {
+    color: blueviolet;
+}
+
+.vermelho {
+    color: rgb(228, 39, 55);
+}
+
+.laranja {
+    color: rgb(221, 134, 13);
+}
+
+.amarelo {
+    color: rgb(243, 227, 55);
+}
+
+.rosa{
+    color: rgb(213, 24, 153);
+}
+
+.maior {
+    height: 50px;
+}
